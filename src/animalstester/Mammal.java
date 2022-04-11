@@ -8,6 +8,7 @@ public class Mammal {
     public Mammal() {
         itsAge = 2;
         itsWeight = 5;
+        breed = "mutt";
     }
 
     public int getAge() {

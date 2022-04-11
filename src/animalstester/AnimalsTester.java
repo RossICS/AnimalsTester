@@ -5,7 +5,7 @@ public class AnimalsTester {
         Dog jackie = new Dog();
         jackie.setAge(10);
         jackie.setWeight(7);
-        jackie.setBreed("Poodle");
+        //jackie.setBreed("Poodle");
 
         System.out.println("Dog object jackie:");
         System.out.println("age: " + jackie.getAge());
