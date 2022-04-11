@@ -1,6 +1,8 @@
 package animalstester;
 
 public class Dog extends Mammal {
+    
+    
     public void speak() {
         System.out.println("BARK!!!");
     }
