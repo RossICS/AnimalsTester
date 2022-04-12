@@ -1,3 +1,9 @@
+/**
+ * Administrator
+ * April 12, 2022
+ * This is the client code for testing the Mammal, Dog and Cat classes
+ */
+
 package animalstester;
 
 public class AnimalsTester {
