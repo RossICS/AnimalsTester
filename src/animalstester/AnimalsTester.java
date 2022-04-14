@@ -11,6 +11,7 @@ public class AnimalsTester {
         Dog jackie = new Dog();
         jackie.setAge(10);
         jackie.setWeight(7);
+        System.out.println(jackie.getLikesBellyRubs());
         //jackie.setBreed("Poodle");
 
         System.out.println("Dog object jackie:");
