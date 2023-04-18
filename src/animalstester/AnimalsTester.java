@@ -23,13 +23,21 @@ public class AnimalsTester {
 
         System.out.println("-------------------------");
 
-        Cat garfield = new Cat();
+        Cat garfield = new Cat(true);
         garfield.setBreed("Siamese");
         System.out.println("Cat object garfield:");
         System.out.println("age: " + garfield.getAge());
         System.out.println("weight: " + garfield.getWeight());
         System.out.println("breed: " + garfield.getBreed());
         garfield.speak();
+        
+        Mammal genericPet = new Mammal();
+        
+        Mammal[] pets = {jackie,garfield, genericPet};
+        
+        for (Mammal pet: pets){
+            System.out.println(pet.speak());
+        }
 
     }
 }

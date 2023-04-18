@@ -17,8 +17,8 @@ public class Dog extends Mammal {
      * This is the overridden speak for the Dog class
      * @override
      */
-    public void speak() {
-        System.out.println("BARK!!!");
+    public String speak() {
+        return "BARK!!!";
     }
 
     //Unique method for Dog Class

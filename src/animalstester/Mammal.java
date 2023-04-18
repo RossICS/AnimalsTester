@@ -58,7 +58,7 @@ public class Mammal {
     /**
      * Helper method to be implemented separately in the inherited class
      */
-    public void speak(){
-        //will be overwritten by Dog class and Cat class
+    public String speak(){
+        return "Some noise";
     }
 }
