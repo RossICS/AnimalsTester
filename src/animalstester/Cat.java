@@ -12,6 +12,6 @@ public class Cat extends Mammal {
     }
     
     public String speak() {
-        return "Meow!!!";
+        return super.toString() + "meow meow";
     }
 }
